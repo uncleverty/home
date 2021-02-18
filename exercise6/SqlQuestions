@@ -1,0 +1,40 @@
+Tables:
+
+  INDIVIDUAL
+|---------------------------|
+| INDIVIDUAL_ID | NAME      |
+|---------------------------|
+| 1             | JACK      |
+| 2	            | JILL      |
+| 3	            | ROXY      |
+|---------------------------|
+
+  LICENSE
+|---------------------------------------------|
+| LICENSE_ID | INDIVIDUAL_ID | LICENSE_NUMBER |
+|---------------------------------------------|
+| 1          | 2             | OR01312022     |
+| 2	         | 2             | RI05312022     |
+| 3	         | 2             | AL03312022     |
+| 4          | 3             | WI01312030     |
+| 5	         | 3             | TX09302030     |
+|---------------------------------------------|
+
+INDIVIDUAL_ID is a primary key in the INDIVIDUAL table
+
+
+Questions:
+1) Can you identify a foreign key in the tables?
+
+2) Can you construct a query to return the license numbers for Roxy?
+
+
+3) Can you construct a query to return the name and license number for
+   individuals with a name starts with the letter ‘J’?
+
+
+4) Can you construct a query to get the count of licenses per individual?
+
+
+5) License number is a field that contains two concatenated values. Can you
+   venture a guess as to what the data might represent?
