@@ -1,4 +1,4 @@
-Tables:
+Database Tables: INDIVIDUAL, LICENSE
 
   INDIVIDUAL
 |---------------------------|
@@ -26,6 +26,7 @@ INDIVIDUAL_ID is a primary key in the INDIVIDUAL table
 Questions:
 1) Can you identify a foreign key in the tables?
 
+
 2) Can you construct a query to return the license numbers for Roxy?
 
 
@@ -36,5 +37,6 @@ Questions:
 4) Can you construct a query to get the count of licenses per individual?
 
 
-5) License number is a field that contains two concatenated values. Can you
-   venture a guess as to what the data might represent?
+5) License number is a field that contains two concatenated values. 
+   Can you venture a guess as to what the data might represent?
+
